@@ -5,4 +5,4 @@ WORKDIR /opt/test
 RUN echo "$(pwd)"
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
-CMD ["cicd.sh"]
+CMD ["sh" , "/opt/test/cicd.sh"]
