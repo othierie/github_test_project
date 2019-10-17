@@ -1,6 +1,6 @@
 FROM python:3.7.4
 
-
+RUN cd /var/jenkins_home/workspace/github_test_project
 RUN echo "$(pwd)"
 WORKDIR PWD
 
