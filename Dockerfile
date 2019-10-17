@@ -1,7 +1,7 @@
 FROM python:3.7.4
 
 RUN ls
-RUN cd var
+RUN cd /var
 RUN ls
 RUN echo "$(pwd)"
 WORKDIR PWD
