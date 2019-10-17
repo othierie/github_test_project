@@ -13,3 +13,4 @@ CMD ["flake8" , "--max-line-length=300 *.py"]
 CMD ["echo","executing tests"]
 CMD ["pytest"]
 CMD ["echo","Testing Complete"]
+CMD echo "hello world"
