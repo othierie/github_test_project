@@ -1,7 +1,7 @@
 FROM python:3.7.4
 
 
-RUN echo "PWD is: $PWD" 
+RUN echo "$(pwd)"
 WORKDIR PWD
 
 RUN pip install -r requirements.txt
