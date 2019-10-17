@@ -1,11 +1,8 @@
 FROM python:3.7.4
 
-RUN ls
-RUN cd /var
-RUN ls
+COPY . /opt/test
+WORKDIR /opt/test
 RUN echo "$(pwd)"
-WORKDIR PWD
-
 RUN pip install -r requirements.txt
 
 
